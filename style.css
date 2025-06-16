@@ -6,3 +6,123 @@
   box-sizing: border-box;
 }
 
+header{
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 0.5fr;
+  background-image: url("/imagens/textura.png");
+}
+
+header img{
+
+  max-width: 8vw;
+  margin-left: 8vw;
+}
+
+.vasco{
+
+  font-family: Long Shot;
+  font-size: 2.5vw;
+  align-self: center;
+  margin-left: vw;  margin-top: 1vw;
+}
+
+.Menu{
+
+  display:flex;
+  align-items: center;
+}
+
+.menu{
+
+ display: flex;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ gap: 5vw;
+ list-style: none;
+ flex-direction: row;
+ font-size: 1.6vw;
+ border-color: black;
+ padding: 5px;
+}
+
+.btmenu{
+
+  border-radius: 20vw;
+  padding: 0.5vw;
+}
+
+.btmenu:hover{
+
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border-radius: 20vw;
+  padding: 0.5vw;
+  transition-duration: 0.4s;
+  transition-timing-function:ease;
+}
+
+
+/*FIM DO HEADER=============================================================*/
+
+.slogan{
+  display: flex;
+  background-image:url("/imagens/torcida.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:50vw;
+  position: relative;
+  color: white;
+}
+
+.slogan h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8vw;
+}
+
+.slogan p{
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15vw;
+  margin-left: 20vw;
+  border-radius:20vw;
+  border: 0.2vw solid;
+  width: 11.7vw;
+  padding: 1vw;
+}
+
+.slogan p:hover{
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15vw;
+  margin-left: 20vw;
+  border-radius:20vw;
+  border: 0.2vw solid;
+  width: 11.7vw;
+  padding: 1vw;
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+.texto{
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+}
+
+.opacidade{
+
+  background-color: rgba(0, 0, 0, 0.508);
+  width:100%;
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(237, 221, 83, 0) 100%);
+  height: 50vw;
+}
