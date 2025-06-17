@@ -77,6 +77,8 @@ header img{
   padding: 0.5vw;
   transition-duration: 0.4s;
   transition-timing-function:ease;
+  transform: scale(1.2);
+  cursor:pointer;
 }
 
 
