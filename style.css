@@ -11,12 +11,30 @@ header{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 0.5fr;
   background-image: url("/imagens/textura.png");
+
 }
 
 header img{
-
-  max-width: 8vw;
+  display: flex;
+  max-width: 4.5vw;
   margin-left: 8vw;
+  align-self: center;
+}
+
+.logo{
+
+  display: flex;
+  position: relative;
+}
+
+.faixa{
+  width: 2vw;
+  height: 8vw;
+  background: rgb(24, 24, 24);
+  transform: skew(-35deg); /* Padrão */
+  z-index: -1;
+  position: relative;
+  margin-left: -3vw;
 }
 
 .vasco{
@@ -24,7 +42,7 @@ header img{
   font-family: Long Shot;
   font-size: 2.5vw;
   align-self: center;
-  margin-left: vw;  margin-top: 1vw;
+  margin-top: 1vw;
 }
 
 .Menu{
@@ -53,8 +71,8 @@ header img{
 
 .btmenu:hover{
 
-  background-color: rgb(70, 70, 70);
-  color: white;
+  text-decoration:underline;
+  color: rgb(0, 0, 0);
   border-radius: 20vw;
   padding: 0.5vw;
   transition-duration: 0.4s;
@@ -94,6 +112,8 @@ header img{
   border: 0.2vw solid;
   width: 11.7vw;
   padding: 1vw;
+   transition-duration: 0.5s;
+  transition-timing-function:ease;
 }
 
 .slogan p:hover{
@@ -108,9 +128,9 @@ header img{
   border: 0.2vw solid;
   width: 11.7vw;
   padding: 1vw;
-  background-color: white;
-  color: black;
+  color: white;
   border-color: white;
+  box-shadow:0px 1px 15px 5px rgba(255, 255, 255, 0.508) ;
 }
 
 .texto{
