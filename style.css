@@ -148,3 +148,117 @@ header img{
   background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(237, 221, 83, 0) 100%);
   height: 50vw;
 }
+
+/*Fim do Banner ===============================================================================================================*/
+
+.idolos{
+    background-color: rgba(28, 28, 28, 1);
+    padding-bottom: 10vw;
+    padding-top:10vw;
+}
+
+#titulo{
+    text-align: center;
+    padding-bottom: 8vw;
+}
+
+.idolos h1{
+    font-size: 8vw;
+    color:brown;
+    font-family: Long shot;
+    letter-spacing: 3px;
+}
+
+.idolos h2{
+    font-size:3.5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.idolos{
+
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.3vw;
+    text-align:justify;
+}
+
+.img-idolo{
+     max-width: 35vw;
+     position: relative;
+     z-index: 99;
+     grid-column-start: 1;
+     grid-row-start: 1;
+}
+
+.card-idolo-r{
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: none;
+    border-radius: 2vw;
+    width:70%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 8vw;
+    box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+}
+
+.informações{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-content: center;
+    padding-right:4vw;
+    color:aliceblue;
+    
+}
+
+.faixa-cards{
+    width: 8vw;
+    height: 35vw;
+    background:aliceblue;
+    transform: skew(-35deg); /* Padrão */
+    z-index: 9;
+    position: relative;
+    margin-left: -25vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.imagem-card{
+    display:flex;
+    position: relative;
+}
+
+.card-idolo-l{
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: none;
+    border-radius: 2vw;
+    width:70%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 8vw;
+    box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+}
+
+.informações-l{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-content: center;
+    padding-left:4vw;
+    color:aliceblue;
+    
+}
+
+.faixa-cards-l{
+    width: 8vw;
+    height: 35vw;
+    background:aliceblue;
+    transform: skew(35deg); /* Padrão */
+    z-index: 9;
+    position: relative;
+    margin-left: -20vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
