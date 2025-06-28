@@ -162,14 +162,14 @@ header img{
     padding-bottom: 8vw;
 }
 
-.idolos h1{
+#titulo h1{
     font-size: 8vw;
     color:brown;
     font-family: Long shot;
     letter-spacing: 3px;
 }
 
-.idolos h2{
+#titulo h2{
     font-size:3.5vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -178,12 +178,14 @@ header img{
 
     color: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:1.3vw;
+    font-size:0.8vw;
     text-align:justify;
+    letter-spacing: 1px;
 }
 
 .img-idolo{
-     max-width: 35vw;
+     max-width:20vw;
+     max-height: 20vw;
      position: relative;
      z-index: 99;
      grid-column-start: 1;
@@ -191,16 +193,27 @@ header img{
 }
 
 .card-idolo-r{
+    grid-column-start: 2;
     overflow: hidden;
     display:grid;
     grid-template-columns: 1fr 1fr;
     background-color: none;
     border-radius: 2vw;
-    width:70%;
-    margin: 0 auto;
-    height: auto;
-    margin-bottom: 8vw;
+    width:100%;
+    height:20vw;
+    margin-bottom:3vw;
     box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+}
+
+.card-idolo-r h1{
+    font-size: 4vw;
+    color:brown;
+    font-family: Long shot;
+    letter-spacing: 3px;
+}
+.card-idolo-r h2{
+    font-size:1.8vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .informações{
@@ -209,7 +222,7 @@ header img{
     align-content: center;
     padding-right:4vw;
     color:aliceblue;
-    
+    height: 20vw;
 }
 
 .faixa-cards{
@@ -219,7 +232,7 @@ header img{
     transform: skew(-35deg); /* Padrão */
     z-index: 9;
     position: relative;
-    margin-left: -25vw;
+    margin-left: -20vw;
     grid-column-start: 1;
     grid-row-start: 1;
 }
@@ -230,16 +243,27 @@ header img{
 }
 
 .card-idolo-l{
+    grid-column-start: 3;
     overflow: hidden;
     display:grid;
     grid-template-columns: 1fr 1fr;
     background-color: none;
     border-radius: 2vw;
-    width:70%;
-    margin: 0 auto;
-    height: auto;
-    margin-bottom: 8vw;
+    width:100%;
+    height: 20vw;
+    margin-bottom:3vw;
     box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+}
+
+.card-idolo-l h1{
+    font-size: 4vw;
+    color:brown;
+    font-family: Long shot;
+    letter-spacing: 3px;
+}
+.card-idolo-l h2{
+    font-size:1.8vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .informações-l{
@@ -248,7 +272,7 @@ header img{
     align-content: center;
     padding-left:4vw;
     color:aliceblue;
-    
+    height: 20vw;
 }
 
 .faixa-cards-l{
@@ -258,7 +282,14 @@ header img{
     transform: skew(35deg); /* Padrão */
     z-index: 9;
     position: relative;
-    margin-left: -20vw;
+    margin-left: -8vw;
     grid-column-start: 1;
     grid-row-start: 1;
+}
+
+.cards-idolos{
+
+  display:grid;
+  grid-template-columns: 0.09fr 3fr 3fr 0.09fr;
+  gap:5vw;
 }
